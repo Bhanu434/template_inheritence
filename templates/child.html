@@ -1,0 +1,11 @@
+
+{% extends 'parent.html' %}
+{% load static %}
+{% block title %}
+    <title>child</title>
+{% endblock %}
+{% block body_block %}
+ <h1 class="btn btn-danger">child page</h1>
+ <img src=" {% static 'images/kohil.jpeg' %}" alt="">
+ {% endblock %}
+ 
